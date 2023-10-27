@@ -26,8 +26,6 @@ public class LoginUsuarioServlet extends HttpServlet {
 
         usuarioLogado = UsuarioRepository.findByEmail(email);
 
-
-
         if (usuarioLogado.getEmail() != null && usuarioLogado.getSenha().equals(senha)) {
             HttpSession session = request.getSession();
             session.setAttribute("usuariologado", usuarioLogado);

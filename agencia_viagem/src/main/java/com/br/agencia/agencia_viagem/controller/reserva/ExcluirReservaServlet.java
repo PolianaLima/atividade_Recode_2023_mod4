@@ -23,8 +23,5 @@ public class ExcluirReservaServlet extends HttpServlet {
 
         response.sendRedirect("viagemCancelada.jsp");
 
-        /*request.getRequestDispatcher("viagemCancelada.jsp")
-                .forward(request, response);*/
-
     }
 }

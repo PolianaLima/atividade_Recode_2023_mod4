@@ -25,7 +25,6 @@ public class ListarReservaServlet extends HttpServlet {
 
         Integer id_usuario = usuarioId.getId_Cliente();
 
-        List<Reserva> reservas = ReservaRepository.listarReservasCliente(id_usuario);
 
         List<Passagem> passagems = ReservaRepository.innerJoinReservaVoo(id_usuario);
 

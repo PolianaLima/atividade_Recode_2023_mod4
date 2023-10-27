@@ -19,11 +19,9 @@ public class InserirReservaServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
-
         request.getSession().getAttribute("usuariologado");
 
-        if ( request.getSession().getAttribute("usuariologado") == null) {
+        if (request.getSession().getAttribute("usuariologado") == null) {
             response.sendRedirect("login.jsp");
         } else {
 
@@ -42,8 +40,6 @@ public class InserirReservaServlet extends HttpServlet {
 
             response.sendRedirect("reservaStatus.jsp");
 
-            /*request.getRequestDispatcher("/listarreservas")
-                    .forward(request, response);*/
         }
 
     }

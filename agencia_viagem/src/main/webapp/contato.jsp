@@ -38,8 +38,8 @@
     <jsp:include page="component/menuSite.jsp"/>
 </header>
 
-<main>
-    <div class="container-sm d-sm-flex flex-row  justify-content-between " style="min-height: 60vh;">
+<main style="min-height: 79vh;">
+    <div class="container-sm d-sm-flex flex-row  justify-content-between " >
 
         <div class="contato_info w-100  d-sm-flex flex-column justify-content-center  p-5">
             <img class="w-100" src="assets/img/img_contato.png"/>

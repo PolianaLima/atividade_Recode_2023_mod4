@@ -16,8 +16,8 @@ public class InserirUsuarioServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
-        String nome =request.getParameter("nome");
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String nome = request.getParameter("nome");
         String sobrenome = request.getParameter("sobrenome");
         LocalDate nascimento = LocalDate.parse(request.getParameter("data_nascimento"));
         String sexo = request.getParameter("sexo");
