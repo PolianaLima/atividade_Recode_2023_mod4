@@ -1,0 +1,50 @@
+/* Congifurações adicionais do Header e Menu*/
+
+
+a{
+    text-decoration: none;
+}
+
+.bg-color_menu{
+    background-color: #1560b4;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+.nav-link-light{
+    color: #fff;
+}
+.nav-link-light:hover{
+    color: #FF9F1F;
+}
+
+menu .nav-link{
+    color: #fff;
+}
+
+menu .nav-link:hover{
+    color: #FF9F1F;
+}
+
+menu .dropdown-item:hover{
+    color: #FF9F1F;
+    font-weight: bold;
+
+}
+
+.desconto{
+    background-color: darkgreen;
+    padding: 10px;
+
+
+}
+
+/*MENU-MOBILE*/
+.navbar-toggler{
+    background-color: #FF9F1F;
+    border-color: #FF9F1F;
+}
